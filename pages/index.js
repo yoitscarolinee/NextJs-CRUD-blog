@@ -30,7 +30,7 @@ export default function Home() {
 
             <h3>Informações</h3>
             <hr/>
-            <p>Esse site foi feito com o intuito de aprendizado e diversificação de projetos publicos no meu <a target="_blank" rel="noreferrer" href="https://github.com/yoitscarolinee"><span>GitHub!</span></a></p>
+            <p>Esse site foi feito com o intuito de aprendizado e diversificação de projetos publicos no meu <Link href="https://github.com/yoitscarolinee"><span>GitHub!</span></Link></p>
             <p>Esta pagina de forma alguma é mantida com conteúdo de forma "regular" ou "consistente", nada aqui deve ser levado a serio.</p>
             <p>A não ser que você esteja em busca de trabalhar comigo, o codigo dessa pagina é aberto para você analisar as minhas habilidades em tarefas simples tanto do front como do backend.</p>
             <br/>
