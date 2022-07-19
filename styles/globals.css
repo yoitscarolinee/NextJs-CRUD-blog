@@ -9,8 +9,36 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
 * {
   box-sizing: border-box;
+}
+
+:root {
+  --white: #E5E5E5;
+  --main: #C40052;
+  --secondary: #1D0F14;
+}
+
+hr {
+  background-color: var(--main);
+  border-top: 1px dashed var(--main);
+  border-bottom: none;
+}
+
+h1,h2,h3 {
+  color: var(--secondary)
+}
+
+span {
+  color: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 300ms;
+}
+
+span:hover {
+  color: var(--main);
 }
