@@ -120,7 +120,6 @@ const AlertWrapper = styled.div`
   top: 0;
   left: 0;
   z-index: 9;
-  gap: 15px
   align-items: center;
   justify-content: center;
 `
